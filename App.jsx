@@ -8,6 +8,7 @@ import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
 import { store } from './store';
 import EatsScreen from './screens/EatsScren';
+import 'react-native-gesture-handler';
 
 // SafeArea provider is a dependency of the lib React Native Elements
 
