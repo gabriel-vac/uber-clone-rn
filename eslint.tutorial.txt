@@ -1,0 +1,9 @@
+yarn add -D eslint
+yarn eslint --init
+yarn add -D eslint-plugin-prettier 
+yarn add -D prettier eslint-config-prettier
+yarn add -D eslint-plugin-react-native
+
+ver as documentações dos plugins
+
+add "plugin:react-hooks/recommended" no extend, "react-hooks' no plugins e "react-hooks/rules-of-hooks": "error", "react-hooks/exhaustive-deps": "warn" nas rules

@@ -1,0 +1,12 @@
+[commands]
+yarn add react-redux
+yarn add @reduxjs/toolkit
+yarn add twrnc       
+yarn add @rneui/themed @rneui/base //(ler getting started) precisa do vector icons e do safe area context 
+yarn add react-native-vector-icons
+yarn add react-native-safe-area-context
+yarn add @react-navigation/native
+yarn add @react-navigation/stack
+yarn add react-native-google-places-autocomplete
+yarn add react-native-dotenv
+yarn add react-native-maps
