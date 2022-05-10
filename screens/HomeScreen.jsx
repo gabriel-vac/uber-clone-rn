@@ -5,6 +5,7 @@ import { Image, SafeAreaView, View } from 'react-native';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { useDispatch } from 'react-redux';
 import tw from 'twrnc';
+import NavFavourites from '../components/NavFavourites';
 
 import NavOptions from '../components/NavOptions';
 import { setDestination, setOrigin } from '../slices/navSlice';
@@ -56,6 +57,7 @@ const HomeScreen = () => {
           debounce={400} // delay to search
         />
         <NavOptions />
+        <NavFavourites />
       </View>
     </SafeAreaView>
   );
